@@ -1,0 +1,55 @@
+@charset: "utf-8";
+
+header{
+	width:700px;
+	height:50px;
+	background-color:#48d1cc;
+	/*font-size:42px;*/
+}
+
+article{
+	width:200px;
+	height:350px;
+	background-color:#7fffd4;
+	float:left;
+}
+
+aside{
+	width:500px;
+	height:350px;
+	background-color:#ffebcd;
+	float:left;
+}
+
+footer{
+	width:700px;
+	height:50px;
+	background-color:#dcdcdc;
+	clear:both;
+}
+
+.input_name{
+	width:270px;
+}
+
+.input_phone{
+	width:270px;
+}
+
+.input_e-mail{
+	width:270px;
+}
+
+.amakyo{
+	margin-left:40px;
+}
+
+.hoshimikai{
+	margin-left:40px;
+}
+
+.table_amana{
+	margin:25px;
+}
+
+

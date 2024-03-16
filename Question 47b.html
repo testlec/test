@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="UTF-8"/>
+		<title>HTML の演習課題</title>
+<!--		<link rel="stylesheet" href="./css/style.css">-->
+		<link rel="stylesheet" href="https://testlec.github.io/test/style.css">
+	</head>
+	<body>
+		<div class="wrapper">
+			<header>
+<!--				<img src="images/hoshi.gif" width="300px" height="300px">-->
+				<img src="https://testlec.github.io/test/hoshi.gif" width="300px" height="300px">
+
+				<h1 class="hotel_name">一ツ星レストラン</h1>
+			</header>
+			<div class="container">
+				<article>
+					<a href="https://restaurantnemo.net/">商品カタログ</a>
+				</article>
+				<aside>
+					<form>
+						<table border="1">
+							<tr>
+								<th>お名前</th>
+								<td>
+									<input class="input_name" type="name" name="name" cols="38">
+								</td>
+							</tr>
+							<tr>
+								<th>お住いの地域</th>
+								<td>
+									<select name="area">
+										<option value="1">北海道・東北</option>
+										<option value="2">関東</option>
+										<option value="3">中部</option>
+										<option value="4">関西</option>
+										<option value="5">中国・四国</option>
+										<option value="6">九州・沖縄</option>
+									</select>
+								</td>
+							</tr>
+							<tr>
+								<th>電話</th>
+								<td>
+									<input class="input_phone" type="number" name="phone" cols="38">
+								</td>
+							</tr>
+							<tr>
+								<th>Eメール</th>
+								<td>
+									<input class="input_e-mail"type="e-mail" name="mail" cols="38">
+								</td>
+							</tr>
+							<tr>
+								<th>お問い合わせ種別</th>
+								<td><input type="radio" name="type" value="1">商品について 
+									<input type="radio" name="type" value="2">当サイトについて
+								</td>
+							</tr>
+							<tr>
+								<th>お問い合わせ内容</th>
+								<td>
+									<textarea name="detail" cols="30" rows="5"></textarea>
+								</td>
+							</tr>
+						</table>
+						<br/>
+						<input type="submit" value="送信">
+					</form>
+				</aside>
+			</div>
+			<footer>
+			</footer>
+		</div>
+
+	</body>
+</html>

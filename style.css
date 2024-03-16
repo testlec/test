@@ -1,0 +1,49 @@
+@charset: "utf-8";
+
+header{
+	width:700px;
+	height:300px;
+	background-color:#ffdf98;
+	/*font-size:42px;*/
+}
+
+article{
+	width:200px;
+	height:305px;
+	background-color:#efeadc;
+	float:left;
+}
+
+aside{
+	width:500px;
+	height:305px;
+	background-color:#ffebcd;
+	float:left;
+}
+
+footer{
+	width:700px;
+	height:50px;
+	background-color:#dcdcdc;
+	clear:both;
+}
+
+.hotel_name{
+	margin:-50px 0px 0px 300px;
+}
+
+.input_name{
+	width:270px;
+}
+
+.input_phone{
+	width:270px;
+}
+
+.input_e-mail{
+	width:270px;
+}
+
+
+
+
