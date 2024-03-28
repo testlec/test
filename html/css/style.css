@@ -1,0 +1,47 @@
+@charset: "utf-8";
+
+header{
+  width:700px;
+  height:300px;
+  background-color:#ffdf98;
+  font-size:42px;
+}
+
+.hoshi_img{
+  width:295px;
+  height:295px;
+}
+
+aside{
+  width:200px;
+  height:305px;
+  background-color:#efeadc;
+  float:left;
+}
+
+article{
+  width:500px;
+  height:305px;
+  background-color:#ffebcd;
+  float:left;
+}
+
+table,th,td{
+  border:1px solid #000000;
+}
+
+.input_name, .input_phone, .input_e-mail{
+  width:283px;
+}
+
+.input_textarea{
+  width:200px;
+  height:67px;
+}
+
+footer{
+  width:700px;
+  height:50px;
+  background-color:#DCDCDC;
+  clear:both;
+}

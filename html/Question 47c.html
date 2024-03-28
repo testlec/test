@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <title>HTMLの演習問題</title>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+<!--          <img class="hoshi_img" src="./images/hoshi.gif">-->
+          <img class="hoshi_img" src="https://testlec.github.io/test/hoshi.gif">
+          一ツ星レストラン
+      </header>
+      <div class="container">
+        <aside>
+          <a href="https://www.cema.co.jp/">商品カタログ</a>
+        </aside>
+        <article>
+          <form action="https://www.cema.co.jp/">
+            <table>
+              <tr>
+                <th>お名前</th>
+                <td>
+                  <input class="input_name" type="text" name="name">
+                </td>
+              </tr>
+              <tr>
+                <th>お住いの地域</th>
+                <td>
+                  <select name="area">
+                    <option value="1">北海道・東北</option>
+                    <option value="2">関東</option>
+                    <option value="3">中部</option>
+                    <option value="4">関西</option>
+                    <option value="5">中国・四国</option>
+                    <option value="6">九州・沖縄</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <th>電話</th>
+                <td>
+                  <input class="input_phone" type="text" name="phone">
+                </td>
+              </tr>
+              <tr>
+                <th>Eメール</th>
+                <td>
+                  <input class="input_e-mail" type="text" name="mail">
+                </td>
+              </tr>
+              <tr>
+                <th>お問い合わせ種別</th>
+                <td>
+                  <label><input type="radio" name="type" value="1">商品について</label>
+                  <label><input type="radio" name="type" value="2">当サイトについて</label>
+                </td>
+              </tr>
+              <tr>
+                <th>お問い合わせ内容</th>
+                <td>
+                  <textarea class="input_textarea" name="detail"></textarea>
+                </td>
+              </tr>
+            </table>
+            <p>
+              <input type="submit" value="送信">
+            </p>
+          </form>
+        </article>
+      </div>
+      <footer></footer>
+    </div>
+  </body>
+</html>
